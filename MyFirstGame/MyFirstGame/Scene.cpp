@@ -11,7 +11,7 @@
 
 // Download glut from: 
 // http://www.opengl.org/resources/libraries/glut/
-#include <GLUT/glut.h>
+#include <GL/freeglut.h>
 #include <vector>
 
 #include "Scene.h"

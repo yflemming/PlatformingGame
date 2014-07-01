@@ -11,7 +11,7 @@
 
 #include <iostream>
 #include "float2.h"
-#include <GLUT/GLUT.h>
+#include <GL/freeglut.h>
 #include "BoundingBox.h"
 #include <vector>
 

@@ -7,8 +7,7 @@
 //
 
 #include "Charater.h"
-#include <GLUT/glut.h>
-
+#include <GL/freeglut.h>
 
 void Charater::drawModel()
 {

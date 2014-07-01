@@ -7,8 +7,7 @@
 //
 
 #include "Camera.h"
-#include <GLUT/glut.h>
-
+#include <GL/freeglut.h>
 
 void Camera::drawModel()
 {

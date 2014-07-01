@@ -1,0 +1,16 @@
+﻿Build started 7/1/2014 12:25:24 AM.
+     1>Project "C:\Users\Yuon\ComputerPrograms\GitRepos\PlatformingGame\MyFirstGame\MyFirstGame\AirRaider.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yuon\ComputerPrograms\GitRepos\PlatformingGame\MyFirstGame\MyFirstGame\Debug\AirRaider.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\libraries\freeglut\lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Yuon\ComputerPrograms\GitRepos\PlatformingGame\MyFirstGame\MyFirstGame\Debug\AirRaider.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Camera.obj
+         Debug\Charater.obj
+         Debug\main.obj
+         Debug\Object.obj
+         Debug\Scene.obj
+         Debug\stage.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         AirRaider.vcxproj -> C:\Users\Yuon\ComputerPrograms\GitRepos\PlatformingGame\MyFirstGame\MyFirstGame\Debug\AirRaider.exe
+     1>Done Building Project "C:\Users\Yuon\ComputerPrograms\GitRepos\PlatformingGame\MyFirstGame\MyFirstGame\AirRaider.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.54

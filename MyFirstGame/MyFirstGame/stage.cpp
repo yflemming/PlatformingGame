@@ -7,7 +7,7 @@
 //
 
 #include "stage.h"
-#include <GLUT/glut.h>
+#include <GL/freeglut.h>
 
 
 void stage::drawModel()

@@ -11,8 +11,7 @@
 
 
 #include <iostream>
-#include <GLUT/glut.h>
-#include "Object.h"
+#include <GL/freeglut.h>
 #include "float2.h"
 
 
