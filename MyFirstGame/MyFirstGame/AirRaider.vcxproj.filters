@@ -47,9 +47,6 @@
     <ClInclude Include="Charater.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CollisionDetection.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="float2.h">
       <Filter>Header Files</Filter>
     </ClInclude>

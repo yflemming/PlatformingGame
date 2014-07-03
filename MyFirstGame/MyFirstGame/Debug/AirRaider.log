@@ -1,6 +1,25 @@
-﻿Build started 7/1/2014 12:25:24 AM.
+﻿Build started 7/1/2014 8:04:40 PM.
      1>Project "C:\Users\Yuon\ComputerPrograms\GitRepos\PlatformingGame\MyFirstGame\MyFirstGame\AirRaider.vcxproj" on node 2 (Build target(s)).
-     1>Link:
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\libraries\freeglut\include /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Z7 /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib Charater.cpp main.cpp
+         Charater.cpp
+     1>c:\users\yuon\computerprograms\gitrepos\platforminggame\myfirstgame\myfirstgame\Object.h(25): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuon\computerprograms\gitrepos\platforminggame\myfirstgame\myfirstgame\Charater.h(19): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\yuon\computerprograms\gitrepos\platforminggame\myfirstgame\myfirstgame\Charater.h(20): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>Charater.cpp(62): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Charater.cpp(69): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>Charater.cpp(72): warning C4305: '+=' : truncation from 'double' to 'float'
+         main.cpp
+     1>c:\users\yuon\computerprograms\gitrepos\platforminggame\myfirstgame\myfirstgame\Object.h(25): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuon\computerprograms\gitrepos\platforminggame\myfirstgame\myfirstgame\Charater.h(19): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\yuon\computerprograms\gitrepos\platforminggame\myfirstgame\myfirstgame\Charater.h(20): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\yuon\computerprograms\gitrepos\platforminggame\myfirstgame\myfirstgame\Scene.h(37): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(66): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(102): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(147): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>main.cpp(148): warning C4305: 'argument' : truncation from 'double' to 'float'
+         Generating Code...
+       Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yuon\ComputerPrograms\GitRepos\PlatformingGame\MyFirstGame\MyFirstGame\Debug\AirRaider.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\libraries\freeglut\lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Yuon\ComputerPrograms\GitRepos\PlatformingGame\MyFirstGame\MyFirstGame\Debug\AirRaider.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Camera.obj
          Debug\Charater.obj
          Debug\main.obj
@@ -13,4 +32,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.54
+Time Elapsed 00:00:08.55

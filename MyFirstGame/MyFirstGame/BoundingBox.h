@@ -9,7 +9,11 @@
 #pragma once
 
 #include <iostream>
+#include <vector>
+#include "float2.h"
 #include "Object.h"
+#include "Charater.h"
+#include "Brick.h"
 
 class BoundingBox
 {
@@ -32,6 +36,20 @@ public:
         _right = 0.0f;
     }
     
+	/*
+	Given 2 objects that have possibly collided this method determines where the two objects
+	______________________________________________________________________
+	FIRST check:	 | SECOND check:   | THIRD check:
+	 ____			 |	____           |  ____                      ____
+	|obj2|			 | |obj1|   	   | |obj2|collision  collision|obj1|		
+	|____|			 | |____|		   | |____|on right   on left  |____|
+	 collision on bot| collision on bot|__________________________________
+	 collision on top| collision on top| FOURTH check:
+	 ____            |  ____           |  ____                      ____
+	|obj1|           | |obj2|		   | |obj1|collision  collision|obj2|
+	|____|           | |____|          | |____|on right   on left  |____|
+
+	*/
     void boxOverLap(BoundingBox objBox1, BoundingBox objBox2){
         if (objBox1._top==objBox2._bottom)
         {
@@ -59,7 +77,6 @@ public:
     }
     
     BoundingBox(float _top, float _bottom, float _left, float _right):_top(_top),_bottom(_bottom),_left(_left),_right(_right){}
-    
     
 };
 

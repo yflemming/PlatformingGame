@@ -109,7 +109,7 @@ void onIdle( ) {
         angle+=2.0f;
     }
    
-    scene.applyGravity(delta_Time);
+    //scene.applyGravity(delta_Time);
     scene.control(keysPressed);
     scene.getCamera().move(delta_Time, keysPressed);
     scene.move(t, delta_Time);
